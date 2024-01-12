@@ -1,5 +1,5 @@
 <template>
   <div>
-<p>Hi This is SerenitySteps</p>
+    <NuxtPage/>
   </div>
 </template>

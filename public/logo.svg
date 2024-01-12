@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100" height="100" viewBox="0 0 1000 1000" xml:space="preserve">
+<defs>
+</defs>
+
+<g transform="matrix(0.4544 0 0 0.4544 500.0015 594.3637)" id="204995">
+<g style="" vector-effect="non-scaling-stroke">
+		<g transform="matrix(1 0 0 1 -0.002 -207.014)" id="Layer_1" clip-path="url(#CLIPPATH_6)">
+<linearGradient id="SVGID_5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -1999.998 -1792.986)" x1="2750.6467" y1="2656.4268" x2="1314.024" y2="1003.9384">
+<stop offset="0%" style="stop-color:rgb(31,162,255);stop-opacity: 1"/>
+<stop offset="50%" style="stop-color:rgb(18,216,250);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(166,255,203);stop-opacity: 1"/>
+</linearGradient>
+<clipPath id="CLIPPATH_6">
+	<path transform="matrix(1 0 0 1 -0.001 0) translate(-1999.997, -1792.986)" id="SVGID_00000152243767538711703490000008878496893263382407_" clip-path="url(#undefined)" d="M 1881.454 1454.888 v 219.564 h -219.556 c -24.115 0 -43.854 19.729 -43.854 43.851 v 149.368 c 0 24.12 19.739 43.849 43.854 43.849 h 219.556 v 219.561 c 0 24.12 19.734 43.854 43.856 43.854 h 149.363 c 24.12 0 43.854 -19.734 43.854 -43.854 V 1911.52 h 219.565 c 24.125 0 43.854 -19.729 43.854 -43.849 v -149.368 c 0 -24.121 -19.729 -43.851 -43.854 -43.851 h -219.565 v -219.564 c 0 -24.117 -19.734 -43.851 -43.854 -43.851 H 1925.31 C 1901.188 1411.037 1881.454 1430.771 1881.454 1454.888 M 1449.172 1167.725 h 550.825 c 343.893 0 625.261 281.368 625.261 625.261 v 550.826 c 0 40.938 -33.497 74.435 -74.437 74.435 h -550.824 c -343.895 0 -625.261 -281.366 -625.261 -625.261 v -550.824 C 1374.737 1201.222 1408.234 1167.725 1449.172 1167.725 z" stroke-linecap="round"/>
+</clipPath>
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: url(#SVGID_5); fill-rule: nonzero; opacity: 1;" x="-625.261" y="-625.261" rx="0" ry="0" width="1250.522" height="1250.522"/>
+</g>
+		<g transform="matrix(1 0 0 1 198.4765 -73.361)" id="Layer_1" clip-path="url(#CLIPPATH_7)">
+<clipPath id="CLIPPATH_7">
+	<rect transform="matrix(1 0 0 1 -198.4765 73.361)" id="SVGID_00000048501221507949634520000013658306720619162302_" x="-2000" y="-2000" rx="0" ry="0" width="4000" height="4000"/>
+</clipPath>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(16,39,112); fill-rule: evenodd; opacity: 1;" transform=" translate(-2198.4765, -1926.639)" d="M 1793.562 1435.031 c 30.401 25.71 59.642 51.459 87.892 77.182 v -12.198 C 1853.087 1478.05 1823.832 1456.345 1793.562 1435.031 M 2603.391 2396.381 l -1.065 1.04 l -0.216 0.206 v 0.005 l -0.221 0.206 l -1.086 1.013 l -1.124 0.998 l -0.211 0.189 h -0.005 l -0.208 0.181 l -1.156 0.976 l -1.395 1.121 l -1.422 1.092 l -1.448 1.059 l -1.471 1.021 l -1.499 0.99 l -1.525 0.954 l -1.543 0.917 l -1.571 0.881 l -1.592 0.843 l -1.616 0.805 v 0.005 l -1.638 0.765 l -1.655 0.729 l -1.678 0.689 l -1.702 0.648 l -1.719 0.606 l -1.732 0.568 l -1.754 0.521 v 0.005 l -1.773 0.482 l -1.79 0.44 l -1.805 0.392 l -1.822 0.355 l -1.837 0.306 l -1.849 0.256 l -1.862 0.216 l -1.876 0.171 l -1.89 0.117 l -1.903 0.076 l -1.913 0.022 c 0 0 -81.329 -218.781 -301.748 -506.727 h 50.505 C 2513.059 2176.784 2603.391 2396.381 2603.391 2396.381 z" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</svg>

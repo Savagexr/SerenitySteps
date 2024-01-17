@@ -10,9 +10,9 @@
           <img src="../../public/notifHeaderIcon.svg" alt="Notification Icon" class="w-5 h-5 rounded-full" />
         </div>
       </a>
-      <a href="#" class="block mr-10">
+      <!-- <a href="#" class="block mr-10">
           <img src="../../public/sampleProfilePic.jpg" alt="Search Icon" class="w-8 h-8 rounded-full shadow-lg" />
-      </a>
+      </a> -->
     </div>
   </template>
   

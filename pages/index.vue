@@ -1,12 +1,30 @@
+<script lang="ts" setup>
+definePageMeta({
+  middleware: "auth",
+});
+
+const { data, signOut } = useAuth();
+const {user}=data.value??{}
+
+async function handleLogout() {
+  await signOut({callbackUrl:'/login'});
+}
+</script>
 <template>
-    <div class="flex min-h-screen flex-col justify-center py-12 sm:px-6 lg:px-8 bg-gray-100">
-        <div class="sm:mx-auto sm:w-full sm:max-w-md">
-            <img src="/logo.svg" class="mx-auto w-auto" alt="Logo">
-            <!-- <h3 class="text-center text-3xl font-bold tracking-tight text-gray-900">SerenitySteps</h3> -->
-        <AuthForm/>
-        </div>
-    </div>
+  <div>
+    <h1 class="mb-4 text-xl font-bold">
+      Welcome {{ user?.name }}
+    </h1>
+    <p>Access your dashboard and account from here</p>
+
+    <button
+      type="button"
+      class="bg-red-500 hover:bg-red-600 transition-all duration-200 text-red-50 rounded-lg py-2 px-5 mt-4"
+      @click="handleLogout"
+    >
+      Logout
+    </button>
+  </div>
 </template>
 
-<script>
-</script>
+<style></style>

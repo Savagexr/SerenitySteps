@@ -3,16 +3,16 @@
     <div class="bg-white px-4 py-8 shadow sm:rounded-lg sm:px-10">
       <form action="" class="space-y-6" @submit.prevent="onSubmit">
         <!-- Input  -->
-        <Input :disabled="isLoading" required id="name" label="Name" name="name" v-model="name" type="text"
+        <LoginInput :disabled="isLoading" required id="name" label="Name" name="name" v-model="name" type="text"
           v-if="variant === 'REGISTER'" />
 
-        <Input :disabled="isLoading" required id="email" label="Email" name="email" v-model="email" type="email" />
-        <Input :disabled="isLoading" required id="password" label="Password" name="password" v-model="password"
+        <LoginInput :disabled="isLoading" required id="email" label="Email" name="email" v-model="email" type="email" />
+        <LoginInput :disabled="isLoading" required id="password" label="Password" name="password" v-model="password"
           type="password" />
         <div>
-          <Button :disabled="isLoading" fullWidth type="submit">
+          <LoginButton :disabled="isLoading" fullWidth type="submit">
             {{ variant === 'LOGIN' ? 'Sign In' : 'Register' }}
-          </Button>
+          </LoginButton>
         </div>
         <div class="mt-6">
           <div class="relative">
@@ -24,7 +24,7 @@
             </div>
           </div>
           <div class="mt-6 flex gap-2">
-            <AuthSocialButton :disabled="isLoading" @click="socialAction('google')" icon="bi:google" />
+            <LoginAuthSocialButton :disabled="isLoading" @click="socialAction('google')" icon="bi:google" />
           </div>
         </div>
         <div class="flex gap-2 justify-center text-sm mt-6 px-2 text-gray-500">

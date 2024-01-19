@@ -66,9 +66,6 @@
             />
             <div class="card__header-text">
               <h3 class="card__title">Jessica Parker</h3>
-              <span class="card__tagline"
-                >Lorem ipsum dolor sit amet consectetur</span
-              >
               <span class="card__status">1 hour ago</span>
             </div>
           </div>
@@ -126,7 +123,7 @@ body {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(4, minmax(250px, 3fr));
   gap: 2rem;
   margin: 4rem 5vw;
   padding: 0;
@@ -232,4 +229,8 @@ body {
   overflow: hidden;
 }
 </style>
-<script></script>
+<script>
+  export default {
+    name: 'GalleryCard',
+  };
+  </script>

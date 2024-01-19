@@ -49,8 +49,8 @@
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   position: absolute;
-  left: 250px; /* Adjust this value as needed */
-  top: 100px;
+  left: 150px; /* Adjust this value as needed */
+  top: 130px;
   bottom: 0;
   border-radius: 20px;
   overflow: hidden; /* Ensure child elements don't overflow */
@@ -111,7 +111,7 @@
   
   <script>
   export default {
-    name: 'CardComponent',
+    name: 'InfoCard',
   };
   </script>
   

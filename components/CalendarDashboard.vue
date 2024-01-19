@@ -96,6 +96,7 @@
 
 <script>
 export default {
+  name: 'CalendarDashboard',
   data() {
     return {
       currentMonth: null,

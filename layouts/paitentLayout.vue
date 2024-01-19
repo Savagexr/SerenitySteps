@@ -1,28 +1,24 @@
-<!-- src/layouts/MainLayout.vue -->
-
 <template>
-    <div>
-      <main class="flex flex-row justify-between">
-        <div>
-          <LayoutSideMenu />
-        </div>
-        <div>
-          <LayoutUserHeader/>
-        </div>
-        <nuxt />
-      </main>
-      <!-- <LayoutFooter/> -->
-    </div>
-  </template>
-  
-  <script>
-  
-  export default {
-    name: "PatientLayout", // Correct the layout name
-  };
-  </script>
-  
-  <style scoped>
-  /* Your component-specific styles here */
-  </style>
-  
+  <div>
+    <main class="flex flex-col lg:flex-row justify-between bg-gray-100">
+      <div class="flex flex-col lg:flex-row">
+        <LayoutSideMenu :style="{ marginRight: '300px' }" class="mr-10" />
+        <slot />
+      </div>
+      <div>
+        <LayoutUserHeader />
+      </div>
+    </main>
+    <!-- <LayoutFooter/> -->
+  </div>
+</template>
+
+<script>
+export default {
+  name: "PatientLayout",
+};
+</script>
+
+<style scoped>
+/* Your component-specific styles here */
+</style>

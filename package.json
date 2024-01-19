@@ -21,10 +21,12 @@
     "@prisma/client": "^5.8.0",
     "@sidebase/nuxt-auth": "^0.6.4",
     "@tailwindcss/forms": "^0.5.7",
+    "@vueuse/head": "^2.0.0",
     "bcrypt": "^5.1.1",
     "clsx": "^2.1.0",
     "next-auth": "^4.21.1",
     "nuxt-icon": "^0.6.8",
-    "prisma": "^5.8.0"
+    "prisma": "^5.8.0",
+    "vue-meta": "^2.4.0"
   }
 }

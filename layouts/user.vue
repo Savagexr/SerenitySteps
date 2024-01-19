@@ -1,20 +1,24 @@
 <template>
-  <div class="flex min-h-screen max-w-screen flex-col justify-center bg-gray-100">
   <div>
-    <main class="flex flex-row justify-between">
-      <div>
-        <UserSideMenu />
-        <!-- can refer to https://flowbite.com/docs/components/sidebar/ on how it display contents-->
+    <main class="flex flex-col lg:flex-row justify-between bg-gray-100">
+      <div class="flex flex-col lg:flex-row">
+        <LayoutSideMenu :style="{ marginRight: '300px' }" class="mr-10" />
+        <slot />
       </div>
       <div>
-        <UserHeader/>
+        <LayoutUserHeader />
       </div>
-      <nuxt />
     </main>
     <!-- <LayoutFooter/> -->
-  </div>
   </div>
 </template>
 
 <script>
+export default {
+  name: "UserLayout",
+};
 </script>
+
+<style scoped>
+/* Your component-specific styles here */
+</style>

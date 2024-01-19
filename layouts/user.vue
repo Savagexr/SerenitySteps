@@ -1,12 +1,13 @@
 <template>
   <div>
-    <main class="flex flex-col lg:flex-row justify-between bg-gray-100">
+    <main class="flex flex-col lg:flex-row justify-between">
       <div class="flex flex-col lg:flex-row">
-        <LayoutSideMenu :style="{ marginRight: '300px' }" class="mr-10" />
+        <UserSideMenu style="{ marginRight: '300px' }" class="mr-10" />
+        <UserHeader />
         <slot />
       </div>
       <div>
-        <LayoutUserHeader />
+        <!-- <UserHeader /> -->
       </div>
     </main>
     <!-- <LayoutFooter/> -->
@@ -14,8 +15,9 @@
 </template>
 
 <script>
+
 export default {
-  name: "UserLayout",
+    name: "UserLayout",
 };
 </script>
 

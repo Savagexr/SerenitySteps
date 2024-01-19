@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-end p-5 flex-end justify-end">
+  <div class="fixed top-0 right-0 p-5 flex items-end justify-end bg-white">
     <!-- Search Icon -->
     <a href="#" class="block mr-2 md:mr-4 lg:mr-6">
       <div class="bg-white p-1 rounded-full border-none shadow-lg p-2">

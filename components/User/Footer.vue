@@ -18,21 +18,21 @@
       <div class="footer-social">
           <a href="#" class="social-icon">
             <img
-              src="../../public/instagramFooterIcon.svg"
+              src="/instagramFooterIcon.svg"
               alt="Instagram Icon"
               class="w-6 h-6 fill-current text-white"
             />
           </a>
           <a href="#" class="social-icon">
             <img
-              src="../../public/facebookFooterIcon.svg"
+              src="/facebookFooterIcon.svg"
               alt="Facebook Icon"
               class="w-6 h-6 fill-current text-white"
             />
           </a>
           <a href="#" class="social-icon">
             <img
-              src="../../public/tikTokFooterIcon.svg"
+              src="/tikTokFooterIcon.svg"
               alt="TikTok Icon"
               class="w-7 h-7 fill-current text-white"
             />
